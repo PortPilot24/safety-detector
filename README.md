@@ -4,10 +4,11 @@ YOLOv8 기반 하역장 안전보호구 미착용 감지 시스템
 
 ## 🚀 실행 방법
 
-1. **필요 라이브러리 설치**
+**1. 프로젝트 클론**
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/PortPilot24/safety-detector.git
+cd safety-detector
 ```
 
 **2. 가상 환경 생성 및 활성화**
@@ -22,6 +23,12 @@ venv\Scripts\activate
 # macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
+```
+
+4. **필요 라이브러리 설치**
+
+```bash
+pip install -r requirements.txt
 ```
 
 3. **FastAPI 실행**
