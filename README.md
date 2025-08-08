@@ -25,13 +25,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-4. **필요 라이브러리 설치**
+3. **필요 라이브러리 설치**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **FastAPI 실행**
+4. **FastAPI 실행**
 
 ```bash
 uvicorn main:app --reload
